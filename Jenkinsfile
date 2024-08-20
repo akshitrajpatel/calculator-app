@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the Git repository
-                git 'https://github.com/akshitrajpatel/calculator-app.git'
+                git branch: 'main', url: 'https://github.com/akshitrajpatel/calculator-app.git'
             }
         }
 
