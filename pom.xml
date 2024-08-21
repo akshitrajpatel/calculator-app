@@ -17,13 +17,6 @@
     </properties>
 
     <dependencies>
-        <!-- Calculator application -->
-        <dependency>
-            <groupId>com.calculator</groupId>
-            <artifactId>calculator-app</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
         <!-- Selenium WebDriver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
