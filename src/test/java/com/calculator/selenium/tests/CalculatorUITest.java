@@ -23,7 +23,7 @@ public class CalculatorUITest {
         catch(Exception ex){
             System.out.println("Getting error related to chrome driver");
         }
-
+    }
     @Test
     public void testAddition() {
         WebElement input1 = driver.findElement(By.id("input1"));
