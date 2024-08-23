@@ -15,7 +15,7 @@ public class CalculatorUITest {
     @BeforeTest
     public void setup() {
         // Set up the ChromeDriver
-        System.setProperty("webdriver.chrome.driver", System.getenv("C:\Tools\chromedriver_win32"));
+        System.setProperty("webdriver.chrome.driver", System.getenv("CHROME_DRIVER_PATH"));
         driver = new ChromeDriver();
         driver.get("http://localhost:8080/calculator");
     }
